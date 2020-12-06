@@ -24,15 +24,15 @@ public class Book {
         this.isbn = isbn;
     }
 
+    public Book() {
+    }
+
     public Long getId() {
         return id;
     }
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Book() {
     }
 
     public String getTitle() {
